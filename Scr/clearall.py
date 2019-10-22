@@ -1,0 +1,5 @@
+f = open("Leaderboard.txt", "w")
+f.close()
+f = open("Highscore.txt", "w")
+f.write("0")
+f.close()
